@@ -20,7 +20,7 @@ plt.figure(figsize=(10, 6))
 plt.plot(
     event_data["Time"],
     event_data["Voltage1"] * 10,
-    label="Channel 1 (x10)",
+    label="Channel 1 (x10 )",
     linewidth=1,
 )
 plt.plot(event_data["Time"], event_data["Voltage2"], label="Channel 2", linewidth=1)
